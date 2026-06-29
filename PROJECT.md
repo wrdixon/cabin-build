@@ -62,6 +62,7 @@
 - Pile bracing -- Bill to source additional angle irons
 - Wood stove selection
 - Chimney routing (wall vs roof penetration)
+- Chimney: through-roof installation details not yet worked out. Must be resolved before roof is finished. See chimney.html.
 - Flooring material and source confirmation
 - Electrical panel size
 - Passive air inlet product selection
