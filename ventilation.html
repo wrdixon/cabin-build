@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ventilation — Jamaica Cabin Build</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <span class="nav-title">Jamaica Cabin Build</span>
+  <a href="index.html">&#8592; Home</a>
+</nav>
+
+<main class="page-content">
+
+  <!-- ── Page header + status ── -->
+  <header class="page-header">
+    <h1>Ventilation <span class="status-badge in-progress">In Progress</span></h1>
+    <p class="subtitle">Exhaust-only mechanical ventilation &mdash; passive makeup air inlets &mdash; dedicated outside air kit for wood stove</p>
+  </header>
+
+  <!-- ── 1. Overview ── -->
+  <section class="section">
+    <h2>Overview</h2>
+    <p>The cabin will be a tight envelope, so mechanical ventilation is required to maintain air quality. The strategy is a single exhaust fan with passive makeup air inlets &mdash; appropriate for a small, intermittently occupied space. The wood stove requires a dedicated outside air kit to prevent depressurization of the envelope when the fan is running.</p>
+  </section>
+
+  <!-- ── 2. Decisions ── -->
+  <section class="section">
+    <h2>Decisions</h2>
+
+    <h3>1. Exhaust fan</h3>
+    <p>Panasonic WhisperGreen, 40&ndash;50 CFM.</p>
+    <p class="decision-reason"><strong>Reason:</strong> ASHRAE 62.2 calculation for this space yielded approximately 30 CFM required. WhisperGreen at 40&ndash;50 CFM provides adequate margin, is quiet, reliable, and energy efficient. An ERV or HRV is not warranted for a space this small with intermittent occupancy.</p>
+
+    <h3>2. Makeup air strategy</h3>
+    <p>Passive inlets only &mdash; no powered makeup air. Products under consideration: Aldes Fresh-80, Lunos Nexxt, Smartvent/ProVent.</p>
+    <p class="decision-reason"><strong>Reason:</strong> exhaust-only systems at this CFM level create modest negative pressure that passive inlets can offset. Wood stove makeup air is handled separately via outside air kit &mdash; passive inlets are for general ventilation only.</p>
+
+    <h3>3. Wood stove outside air kit</h3>
+    <p>Dedicated outside air kit (OAK) required for the wood stove. Product TBD &mdash; must be compatible with stove model once selected.</p>
+    <p class="decision-reason"><strong>Reason:</strong> a tight envelope with the exhaust fan running creates risk of depressurization and backdraft at the stove. The OAK supplies combustion air directly to the firebox, isolating it from the living space. Not optional in this assembly.</p>
+  </section>
+
+  <!-- ── 3. Materials & Specs ── -->
+  <section class="section">
+    <h2>Materials &amp; Specs</h2>
+    <table class="specs-table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Spec</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Exhaust fan</td>
+          <td>Panasonic WhisperGreen, 40&ndash;50 CFM</td>
+        </tr>
+        <tr>
+          <td>Passive inlets</td>
+          <td>TBD &mdash; Aldes Fresh-80, Lunos Nexxt, or Smartvent/ProVent</td>
+        </tr>
+        <tr>
+          <td>Outside air kit</td>
+          <td>TBD &mdash; matched to wood stove selection</td>
+        </tr>
+        <tr>
+          <td>ASHRAE 62.2 target</td>
+          <td>~30 CFM for this space</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ── 4. Installation Notes ── -->
+  <section class="section">
+    <h2>Installation Notes</h2>
+    <ol>
+      <li>Locate and cut passive inlet penetrations through siding, furring, polyiso, and ZIP before siding is installed. Cap and flash at exterior. Coordinate locations with <a href="siding.html">Siding</a>.</li>
+      <li>Install WhisperGreen fan in bathroom ceiling or wall. Duct to exterior &mdash; keep duct run short and straight where possible.</li>
+      <li>Install OAK per wood stove manufacturer instructions. Combustion air duct runs from exterior directly to the firebox area &mdash; does not mix with living space air.</li>
+      <li>Run fan electrical circuit to panel. See <a href="electrical.html">Electrical</a>.</li>
+      <li>After envelope is closed, conduct blower door test before interior finish work begins to verify tightness.</li>
+    </ol>
+  </section>
+
+  <!-- ── 5. Open Items ── -->
+  <section class="section">
+    <h2>Open Items</h2>
+    <ul>
+      <li><strong>Passive inlet product selection:</strong> compare Aldes Fresh-80, Lunos Nexxt, and Smartvent/ProVent on cost, install complexity, and performance before ordering.</li>
+      <li><strong>Passive inlet locations:</strong> must be set before siding goes on. Penetrations must be planned in advance. Coordinate with <a href="siding.html">Siding</a>.</li>
+      <li><strong>Fan location:</strong> bathroom area, but exact placement TBD.</li>
+      <li><strong>Fan electrical circuit:</strong> coordinate with <a href="electrical.html">Electrical</a>.</li>
+      <li><strong>Blower door test:</strong> schedule after envelope is closed, before interior finish work.</li>
+      <li><strong>OAK product:</strong> to be confirmed once wood stove is selected. Must be compatible with stove model. See <a href="wood-stove.html">Wood Stove</a>.</li>
+    </ul>
+  </section>
+
+  <!-- ── 6. Dependencies ── -->
+  <section class="section">
+    <h2>Dependencies</h2>
+    <div class="callout">
+      <p><strong>Related Systems</strong></p>
+      <p><a href="wood-stove.html">Wood Stove</a> &mdash; OAK must be matched to stove model. Cannot finalize until stove is selected.</p>
+      <p><a href="siding.html">Siding</a> &mdash; passive inlet penetrations must be located and cut before siding install.</p>
+      <p><a href="electrical.html">Electrical</a> &mdash; exhaust fan requires a dedicated circuit.</p>
+      <p><a href="roof-assembly.html">Roof Assembly</a> &mdash; exhaust fan duct may exit through roof; coordinate penetration location and flashing with roof assembly work.</p>
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
