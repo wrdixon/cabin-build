@@ -333,11 +333,43 @@ figure {
   margin: 1.25rem 0;
 }
 
+figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 figcaption {
   font-size: 0.82rem;
   color: var(--color-text-muted);
   margin-top: 0.4rem;
   font-style: italic;
+}
+
+/* ── Open items callout (amber, distinct from blue deps callout) ── */
+
+.callout-open {
+  background: #fdf6e3;
+  border-left: 4px solid #b8860b;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.callout-open p {
+  margin: 0 0 0.4rem;
+}
+
+.callout-open p:last-child {
+  margin-bottom: 0;
+}
+
+.callout-open strong {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #b8860b;
 }
 
 /* ── Decision items ── */

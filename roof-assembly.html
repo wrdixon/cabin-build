@@ -18,136 +18,93 @@
   <!-- ── Page header + status ── -->
   <header class="page-header">
     <h1>Roof Assembly <span class="status-badge in-progress">In Progress</span></h1>
-    <p class="subtitle">Cathedral assembly &mdash; no attic space &mdash; vented cold roof above continuous insulation</p>
+    <p class="subtitle">Cathedral roof, no cavity insulation &mdash; full exterior polyiso, vented cold roof over a structural top deck</p>
   </header>
 
-  <!-- ── 1. Overview ── -->
+  <!-- ── Image ── -->
+  <figure>
+    <img src="Images/Cold_Roof.png" alt="Cold roof assembly showing insulation above rafters with vented air gap and structural top deck">
+    <figcaption>All insulation sits above the rafters. Rafter bays stay open. A vented air gap sits between the insulation and a structural top deck, which carries the standing seam metal.</figcaption>
+  </figure>
+
+  <!-- ── Where we are ── -->
   <section class="section">
-    <h2>Overview</h2>
-    <p>The roof is a cathedral assembly with no attic space. The design prioritizes a continuous air barrier, exterior insulation to keep the sheathing warm, and a vented cold roof above the insulation layer. ZIP sheathing is already installed and taped; remaining work is polyiso, strapping, and metal panels.</p>
-
-    <!-- Layer cross-section diagram -->
-    <figure>
-      <svg viewBox="0 0 680 308" xmlns="http://www.w3.org/2000/svg"
-           style="background:#fff;width:100%;max-width:680px;display:block;min-width:320px;">
-        <defs>
-          <style type="text/css">
-            .lbl { font: 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; fill:#111; }
-            .sub { font: 10.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; fill:#666; }
-            .dir { font: 700 10px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; fill:#444; letter-spacing:.06em; }
-            .ttl { font: 600 12.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; fill:#111; }
-            .raf { font: 10px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; fill:#7a5020; }
-          </style>
-        </defs>
-
-        <!-- Title -->
-        <text x="340" y="19" text-anchor="middle" class="ttl">Roof Layer Cross-Section — one rafter bay, exterior at top</text>
-
-        <!-- EXTERIOR label -->
-        <text x="190" y="40" text-anchor="middle" class="dir">&#9650; EXTERIOR</text>
-
-        <!-- ─── 1. Standing seam metal: y=46 to y=57 ─── -->
-        <rect x="90" y="46" width="200" height="11" fill="#9a9a9a" stroke="#333" stroke-width="1"/>
-        <!-- leader -->
-        <line x1="290" y1="51" x2="308" y2="51" stroke="#aaa" stroke-width="0.75"/>
-        <text x="314" y="48" class="lbl">Standing seam metal, 24 ga</text>
-        <text x="314" y="60" class="sub">striated or matte finish</text>
-
-        <!-- ─── 2. Vented strapping cavity: y=57 to y=79 ─── -->
-        <!-- strapping pieces at each rafter position (strapping aligned to rafters) -->
-        <rect x="90"  y="57" width="14" height="22" fill="#c8a860" stroke="#906020" stroke-width="0.75"/>
-        <rect x="276" y="57" width="14" height="22" fill="#c8a860" stroke="#906020" stroke-width="0.75"/>
-        <!-- open vented cavity between strapping -->
-        <rect x="104" y="57" width="172" height="22" fill="#fafafa" stroke="#bbb" stroke-width="0.75" stroke-dasharray="5 3"/>
-        <!-- leader -->
-        <line x1="290" y1="68" x2="308" y2="68" stroke="#aaa" stroke-width="0.75"/>
-        <text x="314" y="65" class="lbl">Vented cavity — 1&#xD7;4 strapping at 24&#x22; OC</text>
-        <text x="314" y="78" class="sub">Headlok screws through polyiso into rafters</text>
-
-        <!-- ─── 3. Polyiso: y=79 to y=115 ─── -->
-        <rect x="90" y="79" width="200" height="36" fill="#f5e6c0" stroke="#c09030" stroke-width="1"/>
-        <!-- leader -->
-        <line x1="290" y1="97" x2="308" y2="97" stroke="#aaa" stroke-width="0.75"/>
-        <text x="314" y="94" class="lbl">2&#x22; polyiso, seams taped</text>
-        <text x="314" y="106" class="sub">&#x2248;R-10 effective (cold climate derate)</text>
-
-        <!-- ─── 4. Ice &amp; water shield: y=115 to y=122 ─── -->
-        <rect x="90" y="115" width="200" height="7" fill="#a8c8a0" stroke="#5a8a50" stroke-width="0.75"/>
-        <!-- leader -->
-        <line x1="290" y1="118" x2="308" y2="118" stroke="#aaa" stroke-width="0.75"/>
-        <text x="314" y="122" class="lbl">Ice &amp; water shield, full deck</text>
-
-        <!-- ─── 5. ZIP sheathing: y=122 to y=134 ─── -->
-        <rect x="90" y="122" width="200" height="12" fill="#ddd060" stroke="#a09010" stroke-width="1"/>
-        <!-- leader -->
-        <line x1="290" y1="128" x2="308" y2="128" stroke="#aaa" stroke-width="0.75"/>
-        <text x="314" y="133" class="lbl">ZIP sheathing, seams taped (installed)</text>
-
-        <!-- ─── 6+7. Rafter sides spanning air gap + Rockwool zones: y=134 to y=262 ─── -->
-        <rect x="90"  y="134" width="14" height="128" fill="#c8a860" stroke="#906020" stroke-width="0.75"/>
-        <rect x="276" y="134" width="14" height="128" fill="#c8a860" stroke="#906020" stroke-width="0.75"/>
-
-        <!-- ─── 6. Air gap (intentional, upper rafter bay): y=134 to y=178 ─── -->
-        <rect x="104" y="134" width="172" height="44" fill="#f4f4f4" stroke="#bbb" stroke-width="0.75" stroke-dasharray="4 3"/>
-        <text x="190" y="159" text-anchor="middle" class="sub">air space — intentional</text>
-        <!-- leader -->
-        <line x1="290" y1="155" x2="308" y2="155" stroke="#aaa" stroke-width="0.75"/>
-        <text x="314" y="150" class="lbl">Air gap — upper rafter cavity</text>
-        <text x="314" y="162" class="sub">uninsulated; retained below ZIP</text>
-
-        <!-- ─── 7. Rockwool: y=178 to y=262 ─── -->
-        <rect x="104" y="178" width="172" height="84" fill="#e8d0a8" stroke="#a08040" stroke-width="0.75"/>
-        <!-- texture lines -->
-        <line x1="104" y1="200" x2="276" y2="200" stroke="#c09050" stroke-width="0.5" stroke-dasharray="3 5"/>
-        <line x1="104" y1="222" x2="276" y2="222" stroke="#c09050" stroke-width="0.5" stroke-dasharray="3 5"/>
-        <line x1="104" y1="244" x2="276" y2="244" stroke="#c09050" stroke-width="0.5" stroke-dasharray="3 5"/>
-        <!-- leader -->
-        <line x1="290" y1="220" x2="308" y2="220" stroke="#aaa" stroke-width="0.75"/>
-        <text x="314" y="215" class="lbl">3.5&#x22; Rockwool batt, R-15</text>
-        <text x="314" y="227" class="sub">friction fit between rafters, no gaps</text>
-
-        <!-- Rafter label to the left of diagram -->
-        <text x="84" y="201" text-anchor="end" class="raf">2&#xD7;10</text>
-        <text x="84" y="213" text-anchor="end" class="raf">rafter</text>
-
-        <!-- Dimension bracket: rafter full depth (y=134 to y=262) -->
-        <line x1="64" y1="134" x2="64" y2="262" stroke="#777" stroke-width="0.75"/>
-        <line x1="60" y1="134" x2="68" y2="134" stroke="#777" stroke-width="0.75"/>
-        <line x1="60" y1="262" x2="68" y2="262" stroke="#777" stroke-width="0.75"/>
-        <text x="52" y="199" text-anchor="middle" transform="rotate(-90 52 199)" class="sub">9.25&#x22;</text>
-
-        <!-- Bottom interior line -->
-        <line x1="90" y1="262" x2="290" y2="262" stroke="#444" stroke-width="1.5" stroke-dasharray="7 4"/>
-
-        <!-- INTERIOR label -->
-        <text x="190" y="283" text-anchor="middle" class="dir">&#9660; INTERIOR — cathedral ceiling, open to rafters</text>
-      </svg>
-      <figcaption>Schematic cross-section through one rafter bay. Not to scale. Roof pitch and ridge not shown.</figcaption>
-    </figure>
+    <h2>Where We Are</h2>
+    <p>Rafters and ZIP sheathing are installed and taped. Everything above that &mdash; polyiso, strapping, top deck, ice and water, metal &mdash; is designed but three items are still pending confirmation before ordering: polyiso thickness, top deck thickness, and the long-screw fastening schedule.</p>
   </section>
 
-  <!-- ── 2. Decisions ── -->
+  <!-- ── Layer stack ── -->
+  <section class="section">
+    <h2>Layer Stack (bottom to top)</h2>
+    <table class="specs-table">
+      <thead>
+        <tr>
+          <th>Layer</th>
+          <th>Spec</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rafters</td>
+          <td>2x10 @ 24&#x22; OC, open bays, no cavity insulation</td>
+        </tr>
+        <tr>
+          <td>ZIP sheathing</td>
+          <td>Taped seams, serves as the air control layer</td>
+        </tr>
+        <tr>
+          <td>Polyiso</td>
+          <td>Continuous exterior insulation, 2&ndash;3 staggered layers, taped seams, thickness pending</td>
+        </tr>
+        <tr>
+          <td>Strapping</td>
+          <td>Vertical, aligned to rafters at 24&#x22; OC, creates vented air gap</td>
+        </tr>
+        <tr>
+          <td>Top deck</td>
+          <td>OSB or plywood, fastened to strapping, carries the metal roof, thickness pending</td>
+        </tr>
+        <tr>
+          <td>Ice &amp; water shield</td>
+          <td>Full coverage, over top deck only, under metal</td>
+        </tr>
+        <tr>
+          <td>Standing seam metal</td>
+          <td>24 ga, 21&#x22; panels</td>
+        </tr>
+        <tr>
+          <td>Ridge</td>
+          <td>Ridge vent product, matched to standing seam over a full deck</td>
+        </tr>
+        <tr>
+          <td>Eave</td>
+          <td>Cor-A-Vent bug blocking, vent intake</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ── Decisions ── -->
   <section class="section">
     <h2>Decisions</h2>
 
-    <h3>1. Layer order (inside to outside)</h3>
-    <p>2x10 rafters at 24&#x22; OC with 3.5&#x22; Rockwool between (will not fill full rafter depth &mdash; air gap retained above insulation before ZIP). ZIP sheathing taped at all seams. Ice and water shield over full ZIP deck. 2&#x22; polyiso taped at seams. Vertical strapping (1x4 or similar) fastened with Headlok screws at 24&#x22; OC driven into rafters. Standing seam metal panel on strapping.</p>
-    <p class="decision-reason"><strong>Reason:</strong> keeps the ZIP sheathing above the dew point, provides a vented cold roof cavity above the polyiso, and gives a drainage/drying plane under the metal.</p>
+    <h3>No cavity insulation &mdash; all insulation above the deck</h3>
+    <p>All insulation is moved above the ZIP sheathing as continuous exterior polyiso. Rafter bays are left open.</p>
+    <p class="decision-reason"><strong>Why:</strong> With cavity batts, Zone 6 code and moisture-safety practice requires the exterior rigid layer to carry roughly half the total R-value on its own (about R-25 minimum) to keep the deck above dew point. Going all-exterior removes that ratio requirement entirely, since there is no air-permeable insulation on the cold side of the deck to create a condensation risk.</p>
 
-    <h3>2. Venting strategy</h3>
-    <p>Cor-A-Vent bug blocking at eave, venting ridge cap at peak.</p>
-    <p class="decision-reason"><strong>Reason:</strong> the strapping cavity needs to breathe at both ends to function as a cold roof. Bug blocking keeps insects out of the cavity without restricting airflow.</p>
+    <h3>Ice and water shield on the top deck only, not on the ZIP</h3>
+    <p>Ice and water shield goes over the structural top deck. No ice and water on the ZIP layer.</p>
+    <p class="decision-reason"><strong>Why:</strong> The ZIP layer is the air control layer and needs to stay vapor-open so the assembly can dry if needed. Ice and water is a vapor-closed membrane; putting it on the ZIP would trap that inner layer between two closed layers with no way to dry.</p>
 
-    <h3>3. Panel finish</h3>
-    <p>24-gauge striated or matte finish standing seam panels recommended.</p>
-    <p class="decision-reason"><strong>Reason:</strong> strapping is at 24&#x22; OC driven by rafter layout. That spacing increases oil canning risk on flat panels. Striated or matte finish masks this.</p>
-
-    <h3>4. Fastening strapping</h3>
-    <p>Headlok screws at 24&#x22; OC driven through polyiso into rafters.</p>
-    <p class="decision-reason"><strong>Reason:</strong> structural screw required to pull through foam and engage rafter. Standard screws insufficient at this foam thickness.</p>
+    <ul>
+      <li>Full OSB/ply top deck added over the strapping &mdash; roofer&#x27;s panel is 21&#x22;, cannot land directly on 24&#x22; framing.</li>
+      <li>Strapping fastened to rafters with structural screws through the full polyiso stack; top deck fastened to strapping only, with ordinary screws/nails (does not need to reach the rafter).</li>
+      <li>Cor-A-Vent bug blocking at eave, venting ridge cap at peak.</li>
+      <li>24 ga striated or matte finish standing seam &mdash; masks oil-canning risk at this fastener spacing.</li>
+    </ul>
   </section>
 
-  <!-- ── 3. Materials & Specs ── -->
+  <!-- ── Materials & Specs ── -->
   <section class="section">
     <h2>Materials &amp; Specs</h2>
     <table class="specs-table">
@@ -167,74 +124,73 @@
           <td>2x12, already installed</td>
         </tr>
         <tr>
-          <td>Rockwool batt</td>
-          <td>3.5&#x22; R-15, friction fit between rafters</td>
-        </tr>
-        <tr>
           <td>ZIP sheathing</td>
           <td>Already installed, seams taped</td>
         </tr>
         <tr>
-          <td>Ice and water shield</td>
-          <td>Full deck coverage</td>
-        </tr>
-        <tr>
           <td>Polyiso</td>
-          <td>2&#x22; continuous, seams taped; cold climate derate to approx R-10 effective</td>
+          <td>Continuous, 2&ndash;3 staggered layers, seams taped; thickness TBD (target ~R-30)</td>
         </tr>
         <tr>
           <td>Strapping</td>
-          <td>Vertical, 24&#x22; OC aligned to rafters</td>
+          <td>Vertical, 24&#x22; OC aligned to rafters; structural screws into rafters, min 2&#x22; embedment</td>
         </tr>
         <tr>
-          <td>Fasteners</td>
-          <td>Headlok structural screws into rafters</td>
+          <td>Top deck</td>
+          <td>OSB or plywood over strapping; thickness and span rating TBD</td>
+        </tr>
+        <tr>
+          <td>Ice and water shield</td>
+          <td>Full coverage over top deck only, under metal</td>
         </tr>
         <tr>
           <td>Standing seam panels</td>
-          <td>24 gauge, striated or matte finish (TBC with roofer)</td>
+          <td>24 gauge, 21&#x22; panels, striated or matte finish</td>
         </tr>
         <tr>
           <td>Eave blocking</td>
-          <td>Cor-A-Vent or equivalent bug screen</td>
+          <td>Cor-A-Vent bug screen</td>
         </tr>
         <tr>
           <td>Ridge</td>
-          <td>Venting ridge cap</td>
+          <td>Ridge vent product, rated for standing seam over full deck; product TBD</td>
         </tr>
       </tbody>
     </table>
   </section>
 
-  <!-- ── 4. Installation Notes ── -->
+  <!-- ── Installation Notes ── -->
   <section class="section">
     <h2>Installation Notes</h2>
     <ol>
-      <li>ZIP sheathing is installed. Confirm all seams are taped before proceeding.</li>
-      <li>Install Rockwool batts between rafters. Friction fit, no gaps at edges. Retain air space above batts &mdash; do not pack to ZIP.</li>
-      <li>Install ice and water shield over full ZIP deck. Verify compatibility with polyiso facing before install.</li>
-      <li>Install 2&#x22; polyiso over ice and water shield. Tape all seams. Stagger joints if using multiple layers.</li>
-      <li>Install vertical strapping at 24&#x22; OC aligned to rafters. Use Headlok screws, minimum penetration into rafter per Headlok spec. This creates the vented cold roof cavity.</li>
-      <li>Install Cor-A-Vent at eave before strapping is complete to block insects at cavity entry.</li>
-      <li>Install standing seam metal panels on strapping. Confirm panel system is rated to span 24&#x22; without additional decking.</li>
-      <li>Install venting ridge cap at peak.</li>
-      <li>Chimney penetration to be detailed separately once location is confirmed. Do not finalize panel layout at ridge until chimney location is set.</li>
+      <li>ZIP sheathing is installed. Confirm all seams taped before proceeding.</li>
+      <li>Install polyiso in staggered layers over ZIP. Tape all seams.</li>
+      <li>Install vertical strapping at 24&#x22; OC, aligned to rafters. Long structural screws (schedule TBD, see Open Items) through full polyiso stack and ZIP, minimum 2&#x22; embedment into rafter.</li>
+      <li>Install Cor-A-Vent at eave before strapping is complete.</li>
+      <li>Install top deck over strapping. Fasten to strapping only, ordinary screws/nails per deck manufacturer&rsquo;s schedule (TBD, see Open Items).</li>
+      <li>Install ice and water shield over full top deck.</li>
+      <li>Install standing seam metal panels.</li>
+      <li>Install ridge vent product at peak (product TBD, see Open Items).</li>
+      <li>Chimney penetration detailed separately once location is confirmed &mdash; do not finalize strapping/deck/panel layout at ridge until set.</li>
     </ol>
+    <p>If a strapping screw misses the rafter, it is visible from inside since bays are open (no cavity insulation to hide it). Pull the missed screw. Patch the interior face of the ZIP at the puncture. Confirm with Huber whether tape or liquid flash is rated for their raw OSB backside &mdash; not just the taped WRB face &mdash; before relying on this as the seal. Flag as unconfirmed until checked.</p>
   </section>
 
-  <!-- ── 5. Open Items ── -->
+  <!-- ── Open Items ── -->
   <section class="section">
     <h2>Open Items</h2>
-    <ul>
-      <li><strong>Roofer confirmation needed:</strong> can the selected panel system span 24&#x22; strapping without a second deck? Owner/Forest to confirm with roofer before ordering panels.</li>
-      <li><strong>Panel gauge and finish:</strong> confirm 24 ga and striated or matte with roofer.</li>
-      <li><strong>Ice and water shield compatibility with polyiso facing:</strong> verify with manufacturer before install.</li>
-      <li><strong>Chimney location:</strong> not yet determined. Will affect strapping layout and panel cuts. See <a href="wood-stove.html">wood-stove.html</a>.</li>
-      <li><strong>Rockwool depth:</strong> rafters are 2x10 (9.25&#x22; actual). Rockwool fills 3.5&#x22;. Remaining cavity above Rockwool before ZIP is intentional &mdash; confirm this is acceptable to roofer and meets code in Dummerston.</li>
-    </ul>
+    <div class="callout-open">
+      <p><strong>Pending before ordering</strong></p>
+      <p><strong>Polyiso thickness:</strong> target ~R-30. Confirm with Dummerston whether the cathedral-ceiling code exception applies &mdash; cap is typically 500 sf and this footprint is 480 sf, close enough to the line to verify before assuming it applies. Confirm actual effective R-per-inch with Ryan for the specific product being quoted.</p>
+      <p><strong>Top deck thickness and span rating:</strong> needed from Ryan or an engineer. This also sets the strapping OC and the deck&rsquo;s own fastening schedule.</p>
+      <p><strong>Strapping-to-rafter fastener schedule:</strong> minimum 2&#x22; embedment confirmed, but full spacing needs a manufacturer engineering report or engineer sign-off given Dummerston&rsquo;s 50 psf ground snow load. Working starting point from comparable builds: 8&ndash;10&#x22; HeadLok, 16&#x22; OC up the slope &mdash; confirm before ordering.</p>
+      <p><strong>Ridge vent product:</strong> needs to be rated for standing seam over a full deck with continuous eave-to-ridge airflow.</p>
+      <p><strong>Panel gauge and finish:</strong> confirm 24 ga, striated or matte, with roofer.</p>
+      <p><strong>Chimney location:</strong> not yet determined, affects strapping layout, deck cuts, and panel layout. See <a href="wood-stove.html">Wood Stove</a>.</p>
+    </div>
   </section>
 
-  <!-- ── 6. Dependencies ── -->
+  <!-- ── Dependencies ── -->
   <section class="section">
     <h2>Dependencies</h2>
     <div class="callout">
@@ -243,6 +199,7 @@
       <p><a href="rafter-ties.html">Rafter Ties</a> &mdash; rafter ties attach to rafters. Install rafter ties before closing up interior ceiling if any ties are to be concealed.</p>
       <p><a href="loft.html">Loft</a> &mdash; loft joists may serve as rafter ties. Confirm structural role before roof is finalized.</p>
       <p><a href="ventilation.html">Ventilation</a> &mdash; Cor-A-Vent at eave is part of the building envelope air strategy. Coordinate with ventilation page.</p>
+      <p>Interior Finishes &mdash; ceiling substrate is the underside of taped ZIP in open rafter bays. Furring and wire-chase detail to be documented on a separate Interior Finishes page (not yet created).</p>
     </div>
   </section>
 
